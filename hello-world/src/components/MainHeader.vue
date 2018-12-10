@@ -36,11 +36,11 @@ export default {
 }
 .mainHeader-right{
     float: right;
+    display: inline-flex;
 }
 img{
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
 }
-  
 
 </style>
