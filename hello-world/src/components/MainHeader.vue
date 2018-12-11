@@ -31,30 +31,34 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
-nav{
+nav {
   border-bottom: solid black 1px;
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-    li {
-        display: inline-block;
-        padding: 10px;
-    }
-
-    .list-left {  
-        float: left;
-    }
-
-    .list-right {
-        float: right;
-    }
-    img {
-        height: 30px;
-        width: 30px;
-    }
+  height: 100px;
+  position: relative;
 }
+img {
+    height: 30px;
+    width: 30px;
+}
+ul {
+    list-style: none;
+}
+.list-left {
+    position: absolute;
+    width: auto;  
+    left: 1%;  
+}
+.list-right {
+    position: relative;
+    width: fit-content;
+    float: right;
+
+}
+li {
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+
 </style>
